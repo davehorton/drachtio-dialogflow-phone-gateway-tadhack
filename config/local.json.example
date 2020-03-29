@@ -1,0 +1,25 @@
+{
+  "drachtio": {
+    "host": "127.0.0.1",
+    "port": 9022,
+    "secret": "cymru"
+  },
+  "freeswitch": {
+    "address": "127.0.0.1",
+    "port": 8021,
+    "secret": "ClueCon"
+  },
+  "dialogflow": {
+    "project": "<dialogflow-project-id-goes-here>",
+    "credentials": "<service-account-path-goes-here>",
+    "lang": "en-US",
+    "welcomeEvent": "welcome",
+    "noInputTimeout": "15000"
+  },
+  "sipTrunk": {
+    "method": "INVITE",
+    "gateway": "your.trunking.provider.ip.or.dns",
+    "username": "only needed if your gateway requires",
+    "password": "only needed if your gateway requires"
+  }
+}
